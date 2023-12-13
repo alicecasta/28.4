@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _28._4
 {
-    internal class libri:documenti
+    internal class libri:documento
     {
         public int Numeropagine { get; set; }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _28._4
 {
-    internal class Persona:prestito
+    internal class Persona
     {
         public string Cognome { get; set; }
         public string Nome { get; set; }

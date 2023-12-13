@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace _28._4
 {
-    internal class prestito:documenti
+    internal class prestito
     {
         public string  Numero { get; set; }
         public  DateTime Daqualegiorno { get; set; }
         public DateTime Aqualegiorno { get; set; }
+        public documento Documento { get; set; }
+        public utente utente { get; set; }
     }
 }
